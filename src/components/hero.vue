@@ -1,5 +1,5 @@
 <template>
-    <div class="relative flex flex-col items-center justify-center min-h-[400px] w-full">
+    <div class="relative flex flex-col items-center justify-center min-h-[500px] w-full">
         <img src="../assets/hero.jpg" alt="Tresfjord Lyd å Lys Logo" class="absolute top-0 left-0 w-full h-full object-cover">
         <div class="absolute top-0 left-0 w-full h-full bg-black/50"></div>
         <div class="relative z-10 flex flex-col items-center justify-center space-y-4">
