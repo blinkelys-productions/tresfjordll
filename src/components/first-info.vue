@@ -16,7 +16,7 @@
               <p class="text-gray-600 text-sm">Bredt utvalg av lys og lysmiksere for ditt arrangement.</p>
           </div>
           <div class="bg-white p-6 rounded-lg shadow-md w-64 text-center">
-              <Icon icon="mdi:video-camera" width="150" height="150" class="mx-auto" color="black" />
+              <Icon icon="streamline-plump:camera-video" width="150" height="150" class="mx-auto" color="black" />
               <h3 class="text-xl font-bold mb-2 text-black">AV</h3>
               <p class="text-gray-600 text-sm">Audio-visuelle løsninger for ditt arrangement.</p>
           </div>
