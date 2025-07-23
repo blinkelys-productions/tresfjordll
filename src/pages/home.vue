@@ -4,6 +4,7 @@
   import Hero from '../components/hero.vue';
   import FirstInfo from '../components/first-info.vue';
   import Navbar from '../components/navbar.vue';
+  import About from '../components/about.vue';
 </script>
 
 <template>
@@ -17,6 +18,9 @@
     </div>
     <section id="services">
       <FirstInfo/>
+    </section>
+    <section id="about" class="mt-20">
+      <About/>
     </section>
   </div>
 </template>
