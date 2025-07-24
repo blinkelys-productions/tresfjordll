@@ -5,6 +5,7 @@
   import FirstInfo from '../components/first-info.vue';
   import Navbar from '../components/navbar.vue';
   import About from '../components/about.vue';
+  import Crew from '../components/crew.vue';
 </script>
 
 <template>
@@ -21,6 +22,9 @@
     </section>
     <section id="about" class="mt-20">
       <About/>
+    </section>
+    <section id="crew" class="mt-20">
+      <Crew />
     </section>
   </div>
 </template>
