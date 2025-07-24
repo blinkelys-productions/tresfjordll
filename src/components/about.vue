@@ -34,8 +34,13 @@
 <script lang="ts">
 export default {
     name: 'About',
+    data() {
+      return {
+        isMenuOpen: false,
+      }
+    },
     methods: {
-      scrollToSection(sectionId) {
+      scrollToSection(sectionId: string) {
         const element = document.getElementById(sectionId)
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' })
