@@ -6,6 +6,7 @@
   import Navbar from '../components/navbar.vue';
   import About from '../components/about.vue';
   import Crew from '../components/crew.vue';
+  import Contact from '../components/contact.vue';
 </script>
 
 <template>
@@ -25,6 +26,9 @@
     </section>
     <section id="crew" class="mt-20">
       <Crew />
+    </section>
+    <section id="contact" class="mt-20">
+      <Contact />
     </section>
   </div>
 </template>
