@@ -43,7 +43,7 @@ const equipment = ref([
     description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/turbosound-monitor.jpg',
     category: 'Lyd',
-    amount: 14
+    amount: 4
   },
   {
     id: 28,
@@ -59,7 +59,7 @@ const equipment = ref([
     description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/yamaha-cw15.jpg',
     category: 'Lyd',
-    amount: 8
+    amount: 2
   },
   {
     id: 30,
@@ -67,15 +67,15 @@ const equipment = ref([
     description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/yamaha-cw12.jpg',
     category: 'Lyd',
-    amount: 6
+    amount: 3
   },
   {
     id: 31,
     name: 'HK Audio PRO 12',
-    description: 'Høykvalitets monitorer for live lyd.',
+    description: 'Høykvalitets aktiv monitor for live lyd.',
     image: 'https://example.com/hk-pro-12.jpg',
     category: 'Lyd',
-    amount: 4
+    amount: 7
   },
   {
     id: 32,
@@ -83,7 +83,7 @@ const equipment = ref([
     description: 'Kompakt og kraftig PA-system.',
     image: 'https://example.com/ld-systems-curv-500.jpg',
     category: 'Lyd',
-    amount: 2
+    amount: 3
   },
   {
     id: 33,
@@ -96,10 +96,10 @@ const equipment = ref([
   {
     id: 34,
     name: 'HK Audio PRO 12',
-    description: 'Høykvalitets monitorer for live lyd.',
+    description: 'Høykvalitets passiv monitor for live lyd.',
     image: 'https://example.com/hk-pro-12.jpg',
     category: 'Lyd',
-    amount: 4
+    amount: 6
   },
   {
     id: 27,
