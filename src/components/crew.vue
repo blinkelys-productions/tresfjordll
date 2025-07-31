@@ -33,25 +33,25 @@ export default {
                     id: 1,
                     name: "Øyvind Rypdal",
                     fields: ["Daglig Leder", "Lyd", "Rigging"],
-                    image: "https://via.placeholder.com/60"
+                    image: "https://placehold.co/60x60"
                 },
                 {
                     id: 2,
                     name: "Remi Bergum",
                     fields: ["Rigging"],
-                    image: "https://via.placeholder.com/60"
+                    image: "https://placehold.co/60x60"
                 },
                 {
                     id: 3,
                     name: "Christoffer Bøe Misfjord",
                     fields: ["Rigging", "Lyd", "Lys"],
-                    image: "https://via.placeholder.com/60"
+                    image: "https://placehold.co/60x60"
                 },
                 {
                     id: 4,
                     name: "Martinus Tomren Slemmen",
                     fields: ["Rigging", "Lys"],
-                    image: "https://via.placeholder.com/60"
+                    image: "https://placehold.co/60x60"
                 },
             ]
         };
