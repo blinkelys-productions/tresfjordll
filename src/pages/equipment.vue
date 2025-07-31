@@ -37,25 +37,70 @@ const equipment = ref([
     image: 'https://example.com/sq5.jpg',
     category: 'Lyd'
   },
-  // turbosound monitor
   {
     id: 26,
-    name: 'Passiv Turbosound Madrid Monitor',
+    name: 'Turbosound Madrid 12"',
     description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/turbosound-monitor.jpg',
     category: 'Lyd',
     amount: 14
   },
-  // 4x aktive turbosound
   {
     id: 28,
-    name: 'Aktiv Turbosound TMW-112 Monitor',
-    description: 'Høykvalitets aktive monitorer for live lyd.',
+    name: 'Turbosound tmw 12"',
+    description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/aktiv-turbosound-monitor.jpg',
     category: 'Lyd',
     amount: 10
   },
-  // sennheiser mikrofoner
+  {
+    id: 29,
+    name: 'Yamaha CW15',
+    description: 'Høykvalitets monitorer for live lyd.',
+    image: 'https://example.com/yamaha-cw15.jpg',
+    category: 'Lyd',
+    amount: 8
+  },
+  {
+    id: 30,
+    name: 'Yamaha CW12',
+    description: 'Høykvalitets monitorer for live lyd.',
+    image: 'https://example.com/yamaha-cw12.jpg',
+    category: 'Lyd',
+    amount: 6
+  },
+  {
+    id: 31,
+    name: 'HK Audio PRO 12',
+    description: 'Høykvalitets monitorer for live lyd.',
+    image: 'https://example.com/hk-pro-12.jpg',
+    category: 'Lyd',
+    amount: 4
+  },
+  {
+    id: 32,
+    name: 'LD 8" monitor',
+    description: 'Kompakt og kraftig PA-system.',
+    image: 'https://example.com/ld-systems-curv-500.jpg',
+    category: 'Lyd',
+    amount: 2
+  },
+  {
+    id: 33,
+    name: 'Bose S1 Pro',
+    description: 'Bærbar PA-høyttaler med Bluetooth, hybrid xlr/jack og aux-inngang, samt innebygd mikser.',
+    image: 'https://example.com/bose-s1-pro.jpg',
+    category: 'Lyd',
+    amount: 5
+  },
+  {
+    id: 34,
+    name: 'HK Audio PRO 12',
+    description: 'Høykvalitets monitorer for live lyd.',
+    image: 'https://example.com/hk-pro-12.jpg',
+    category: 'Lyd',
+    amount: 4
+  },
   {
     id: 27,
     name: 'Sennheiser 600 G3',
@@ -64,7 +109,6 @@ const equipment = ref([
     category: 'Lyd',
     amount: 20
   },
-  // Lys
   {
     id: 3,
     name: 'Grand MA3 OnPC Command Wing Reisepakke',
@@ -80,7 +124,6 @@ const equipment = ref([
     image: 'https://example.com/ma3-command.jpg',
     category: 'Lys'
   },
-  // martin m2go
   {
     id: 18,
     name: 'Martin M2GO',
@@ -184,7 +227,6 @@ const equipment = ref([
     category: 'Lys',
     amount: 8
   },
-  // UV lampe
   {
     id: 21,
     name: 'UV Lampe',
@@ -193,7 +235,6 @@ const equipment = ref([
     category: 'Lys',
     amount: 2
   },
-  // Scene
   {
     id: 13,
     name: 'Nivtec Scene Moduler',
@@ -216,7 +257,6 @@ const equipment = ref([
     image: 'https://example.com/scene-2.jpg',
     category: 'Scene'
   },
-  // Video
   {
     id: 22,
     name: 'Hisense 55" UHD TV',
@@ -233,7 +273,6 @@ const equipment = ref([
     category: 'AV',
     amount: 1
   },
-  // Lerret (AV)
   {
     id: 24,
     name: 'Lerret 5x4 meter',
