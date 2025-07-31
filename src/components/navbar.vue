@@ -10,7 +10,7 @@
           <router-link to="/" @click.native="scrollToSection('hero')" :class="linkClass">Hjem</router-link>
         </li>
         <li>
-          <router-link :to="{ path: '/', hash: '#services' }" @click.native="scrollToSection('services')" :class="linkClass">Om Oss</router-link>
+          <router-link :to="{ path: '/', hash: '#about' }" @click.native="scrollToSection('about')" :class="linkClass">Om Oss</router-link>
         </li>
         <li>
           <router-link :to="{ path: '/equipment' }" @click.native="scrollToSection('equipment')" :class="linkClass">Utstyr</router-link>
