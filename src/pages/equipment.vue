@@ -40,20 +40,20 @@ const equipment = ref([
   // turbosound monitor
   {
     id: 26,
-    name: 'Passiv Turbosound Monitor',
+    name: 'Passiv Turbosound Madrid Monitor',
     description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/turbosound-monitor.jpg',
     category: 'Lyd',
-    amount: 10
+    amount: 14
   },
   // 4x aktive turbosound
   {
     id: 28,
-    name: 'Aktiv Turbosound Monitor',
+    name: 'Aktiv Turbosound TMW-112 Monitor',
     description: 'Høykvalitets aktive monitorer for live lyd.',
     image: 'https://example.com/aktiv-turbosound-monitor.jpg',
     category: 'Lyd',
-    amount: 4
+    amount: 10
   },
   // sennheiser mikrofoner
   {
