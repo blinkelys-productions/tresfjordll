@@ -34,7 +34,7 @@
         <!-- Mobile Nav Dropdown -->
         <div v-if="isMenuOpen" class="absolute right-0 mt-2 bg-white w-48 rounded-lg shadow-lg py-2 flex flex-col gap-y-2">
           <router-link to="/" @click.native="scrollToSection('hero')" class="px-4 py-2 text-black font-medium hover:text-gray-500">Hjem</router-link>
-          <router-link :to="{ path: '/', hash: '#services' }" @click.native="scrollToSection('services')" class="px-4 py-2 text-black font-medium hover:text-gray-500">Om Oss</router-link>
+          <router-link :to="{ path: '/', hash: '#about' }" @click.native="scrollToSection('about')" class="px-4 py-2 text-black font-medium hover:text-gray-500">Om Oss</router-link>
           <router-link :to="{ path: '/equipment' }" @click.native="scrollToSection('equipment')" class="px-4 py-2 text-black font-medium hover:text-gray-500">Utstyr</router-link>
           <router-link :to="{ path: '/', hash: '#crew' }" @click.native="scrollToSection('crew')" class="px-4 py-2 text-black font-medium hover:text-gray-500">Crew</router-link>
           <router-link :to="{ path: '/', hash: '#contact' }" @click.native="scrollToSection('contact')" class="px-4 py-2 text-black font-medium hover:text-gray-500">Ta Kontakt</router-link>
