@@ -26,7 +26,7 @@ const equipment = ref([
   {
     id: 1,
     name: 'Allen & Heath Dlive c3500',
-    description: 'Kraftig digital mikser med 64 kanaler og 32 busser.',
+    description: 'Kraftig digital mikser med 48 kanaler og 32 busser.',
     image: 'https://example.com/dlive-c3500.jpg',
     category: 'Lyd'
   },
@@ -40,20 +40,29 @@ const equipment = ref([
   // turbosound monitor
   {
     id: 26,
-    name: 'Turbosound Monitor',
+    name: 'Passiv Turbosound Monitor',
     description: 'Høykvalitets monitorer for live lyd.',
     image: 'https://example.com/turbosound-monitor.jpg',
     category: 'Lyd',
-    amount: 8
+    amount: 10
+  },
+  // 4x aktive turbosound
+  {
+    id: 28,
+    name: 'Aktiv Turbosound Monitor',
+    description: 'Høykvalitets aktive monitorer for live lyd.',
+    image: 'https://example.com/aktiv-turbosound-monitor.jpg',
+    category: 'Lyd',
+    amount: 4
   },
   // sennheiser mikrofoner
   {
     id: 27,
-    name: 'Sennheiser EW G4-100',
+    name: 'Sennheiser 600 G3',
     description: 'Trådløs mikrofonsett med høy kvalitet.',
     image: 'https://example.com/sennheiser-ew-g4-100.jpg',
     category: 'Lyd',
-    amount: 16
+    amount: 20
   },
   // Lys
   {
