@@ -142,7 +142,7 @@ const equipment = ref([
   {
     id: 5,
     name: 'Mac Quantum Profile',
-    description: 'Kraftig moving head med 1200W lampe, zoom, fokus og CMY fargemiksing.',
+    description: 'Kraftig moving head med 475W lampe, zoom, fokus og CMY fargemiksing.',
     image: 'https://example.com/sq5.jpg',
     category: 'Lys',
     amount: 4
@@ -174,7 +174,7 @@ const equipment = ref([
   {
     id: 9,
     name: 'Mac 700 Profile',
-    description: 'Moving head med 1500W lampe, zoom, fokus og CMY fargemiksing.',
+    description: 'Moving head med 700W lampe, zoom, fokus og CMY fargemiksing.',
     image: 'https://example.com/mac-700-profile.jpg',
     category: 'Lys',
     amount: 3
@@ -182,7 +182,7 @@ const equipment = ref([
   {
     id: 10,
     name: 'Mac 700 Wash',
-    description: 'Moving head med 1500W lampe, zoom, fokus og CMY fargemiksing.',
+    description: 'Moving head med 700W lampe, zoom, fokus og CMY fargemiksing.',
     image: 'https://example.com/mac-700-wash.jpg',
     category: 'Lys',
     amount: 2
@@ -190,7 +190,7 @@ const equipment = ref([
   {
     id: 11,
     name: 'Mac 550',
-    description: 'Moving head med 575W lampe, zoom, fokus og CMY fargemiksing.',
+    description: 'Moving head med 400W lampe, zoom, fokus og CMY fargemiksing.',
     image: 'https://example.com/mac-550.jpg',
     category: 'Lys',
     amount: 2
